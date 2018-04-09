@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.pessoal.nascimento.geekcontext.Activity.CadastroUsuarioActivity"
+    android:layout_marginRight="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginBottom="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_gravity="center">
+
+    <TextView
+        android:text="Nome Completo do Usuário"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText android:id="@+id/edtNomeCompletoCad"
+        android:hint="Nome Completo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+     <!-- ###################### -->
+
+    <TextView
+        android:text="E-mail do usuário"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText android:id="@+id/edtEmailCad"
+        android:hint="E-mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- ###################### -->
+
+    <TextView
+        android:text="Senha do Usuário"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText android:id="@+id/edtSenhaCad"
+        android:hint="Senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- ###################### -->
+
+    <TextView
+        android:text="Confirme a Senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText android:id="@+id/edtSenhaCad2"
+        android:hint="Confirme a senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- ###################### -->
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton android:id="@+id/rbAdministrador"
+            android:text="Administrador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton android:id="@+id/rbAtendente"
+            android:text="Atendente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+    <!-- ###################### -->
+
+
+    <Button android:id="@+id/btnBotaoCad"
+        android:text="Cadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button android:id="@+id/btnBotaoCancelarCad"
+        android:text="Cancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
