@@ -10,9 +10,13 @@
           <option name="url" value="https://github.com/wendell-nascimento/teste1.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/wendell-nascimento/nascimento.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/AndroidStudioProjects/GeekContext2" />
+    <option name="cloneParentDir" value="$USER_HOME$/AndroidStudioProjects/GeekContext" />
   </component>
   <component name="VcsApplicationSettings">
     <option name="PATCH_STORAGE_LOCATION" value="$APPLICATION_HOME_DIR$/bin/https:/github.com/wendell-nascimento" />
