@@ -14,4 +14,7 @@
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/AndroidStudioProjects/GeekContext" />
   </component>
+  <component name="VcsApplicationSettings">
+    <option name="PATCH_STORAGE_LOCATION" value="$APPLICATION_HOME_DIR$/bin/https:/github.com/wendell-nascimento" />
+  </component>
 </application>
