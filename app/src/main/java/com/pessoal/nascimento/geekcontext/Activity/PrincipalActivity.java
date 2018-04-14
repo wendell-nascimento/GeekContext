@@ -16,8 +16,6 @@ public class PrincipalActivity extends AppCompatActivity {
 
     private FirebaseAuth autenticacao;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,6 +39,7 @@ public class PrincipalActivity extends AppCompatActivity {
         switch (id){
             case R.id.menu_add_usuario:
                 abrirTeladeCadastro();
+                finish();
                 break;
 
             case R.id.menu_logoff_administrador:
