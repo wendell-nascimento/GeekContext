@@ -6,7 +6,7 @@
     density="420dpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1523708705886"
+    timestamp="1523717135349"
     token="-4683914776632654254"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -25,10 +25,16 @@
 
     <build
         build-mode="FULL"
-        timestamp="1523708135862"
+        timestamp="1523716784507"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
             location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
@@ -38,12 +44,6 @@
             type="SPLIT" />
         <artifact
             location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
             location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
@@ -66,7 +66,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1523708705886"
+        timestamp="1523717135349"
         verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

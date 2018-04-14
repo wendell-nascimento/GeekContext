@@ -13,7 +13,7 @@ import com.pessoal.nascimento.geekcontext.R;
 public class PrincipalActivity extends AppCompatActivity {
 
     private FirebaseAuth autenticacao;
-    
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
