@@ -13,7 +13,7 @@ import com.pessoal.nascimento.geekcontext.Helper.MainHelper;
 import com.pessoal.nascimento.geekcontext.R;
 
 public class MainActivity extends AppCompatActivity {
-    int testeDeAtualizacao=0;
+
     public static Activity Main;
   //Teste com o GITHUB
     private static Context MainActivityContext;
