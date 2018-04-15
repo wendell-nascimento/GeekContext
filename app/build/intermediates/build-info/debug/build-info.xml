@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="armeabi-v7a,armeabi"
-    api-level="25"
+    abi="x86"
+    api-level="24"
     build-mode="FULL"
-    density="xxhdpi"
+    density="420dpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1523720101049"
+    timestamp="1523794196271"
     token="-4683914776632654254"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -18,7 +18,7 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="1864" />
+        duration="0" />
     <task
         name="verifier"
         duration="0" />
@@ -62,7 +62,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1523720101049"
+        timestamp="1523794196271"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
