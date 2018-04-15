@@ -3,6 +3,7 @@ package com.pessoal.nascimento.geekcontext.Helper;
 import android.content.Intent;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RadioButton;
 import android.widget.Toast;
 
 import com.pessoal.nascimento.geekcontext.Activity.CadastroUsuarioActivity;
@@ -17,6 +18,8 @@ public class CadastroUsuarioHelper {
     private EditText senha;
     private EditText senhaRepita;
     private Usuario usuario;
+    private RadioButton rbAdministrador;
+    private RadioButton rbAtendente;
 
 
     public CadastroUsuarioHelper(CadastroUsuarioActivity activity){
@@ -25,6 +28,8 @@ public class CadastroUsuarioHelper {
         email= activity.findViewById(R.id.edtEmailCad);
         senha= activity.findViewById(R.id.edtSenhaCad);
         senhaRepita= activity.findViewById(R.id.edtSenhaCad2);
+        rbAdministrador= activity.findViewById(R.id.rbAdministrador);
+        rbAtendente= activity.findViewById(R.id.rbAtendente);
 
         usuario=new Usuario();
     }
@@ -34,6 +39,12 @@ public class CadastroUsuarioHelper {
         usuario.setEmail(email.getText().toString());
         usuario.setSenha1(senha.getText().toString());
         usuario.setSenha2(senhaRepita.getText().toString());
+
+            if(rbAtendente.isChecked()){
+                usuario.setTipoUsuario("Atendente");
+            }else if (rbAdministrador.isChecked()){
+                usuario.setTipoUsuario("Administrador");
+            }
 
         Toast.makeText(CadastroUsuarioActivity.getCadastroContext(),"Usuario recebido", Toast.LENGTH_SHORT).show();
         CadastroUsuarioActivity.mainCadastro.finish();

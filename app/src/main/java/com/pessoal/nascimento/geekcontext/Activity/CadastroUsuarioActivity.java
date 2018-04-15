@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.pessoal.nascimento.geekcontext.Classes.Usuario;
 import com.pessoal.nascimento.geekcontext.Helper.CadastroUsuarioHelper;
@@ -44,6 +45,13 @@ public class CadastroUsuarioActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 usuario=helperCadastro.getUsuario();
+
+                if(usuario.getSenha1().toString().equals(usuario.getSenha2().toString())){
+
+                }
+                else {
+                    Toast.makeText(CadastroUsuarioActivity.this,"Senhas não conferem",Toast.LENGTH_SHORT).show();
+                }
             }
         });
 
@@ -56,4 +64,6 @@ public class CadastroUsuarioActivity extends AppCompatActivity {
             }
         });
     }
+
+
 }
