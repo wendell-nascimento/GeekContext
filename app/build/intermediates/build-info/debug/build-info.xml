@@ -2,13 +2,13 @@
 <instant-run
     abi="x86"
     api-level="24"
-    build-mode="COLD"
+    build-mode="FULL"
     density="420dpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1523722284814"
+    timestamp="1523794196271"
     token="-4683914776632654254"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
@@ -23,13 +23,47 @@
         name="verifier"
         duration="0" />
 
+    <artifact
+        location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/outputs/apk/debug/app-debug.apk"
+        type="SPLIT_MAIN" />
+
     <build
         build-mode="FULL"
-        timestamp="1523721976176"
+        timestamp="1523794196271"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/outputs/apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
         <artifact
             location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
@@ -63,45 +97,9 @@
         <artifact
             location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1523722215461"
-        verifier="R_CLASS_CHANGE" >
-        <artifact
-            location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
         <artifact
             location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/outputs/apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
-    <build
-        build-mode="COLD"
-        timestamp="1523722284814"
-        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
