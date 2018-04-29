@@ -17,6 +17,12 @@ public class CameraHelper {
             //Caso a permissão já exista exibe uma mensagem
             Toast.makeText(context,"Permissão autorizada", Toast.LENGTH_SHORT).show();
         }
+        else {
+            requestStoragePermission();
+        }
+    }
+
+    private void requestStoragePermission() {
     }
 
 
