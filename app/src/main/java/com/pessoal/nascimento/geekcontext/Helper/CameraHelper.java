@@ -15,6 +15,7 @@ import android.widget.Toast;
 
 import com.pessoal.nascimento.geekcontext.Activity.CadastroUsuarioActivity;
 
+//EM FASE DE TESTES
 public class CameraHelper {
     //Verificar se possui permissão para acessar a camera
     //Verificar se possui permissão para salvar no dispositivo
