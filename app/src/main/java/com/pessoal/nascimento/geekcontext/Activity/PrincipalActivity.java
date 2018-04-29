@@ -5,8 +5,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.pessoal.nascimento.geekcontext.R;
@@ -22,7 +20,8 @@ public class PrincipalActivity extends AppCompatActivity {
         setContentView(R.layout.activity_principal);
 
         MainActivity.Main.finish();
-        autenticacao = FirebaseAuth.getInstance();
+
+        autenticacao=FirebaseAuth.getInstance();
     }
 
     @Override
@@ -39,7 +38,6 @@ public class PrincipalActivity extends AppCompatActivity {
         switch (id){
             case R.id.menu_add_usuario:
                 abrirTeladeCadastro();
-                finish();
                 break;
 
             case R.id.menu_logoff_administrador:

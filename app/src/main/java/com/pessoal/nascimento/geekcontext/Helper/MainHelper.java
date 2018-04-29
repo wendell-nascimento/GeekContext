@@ -6,14 +6,12 @@ import android.support.annotation.NonNull;
 import android.util.Log;
 import android.widget.EditText;
 import android.widget.Toast;
-
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.pessoal.nascimento.geekcontext.Activity.CadastroUsuarioActivity;
 import com.pessoal.nascimento.geekcontext.Activity.MainActivity;
-import com.pessoal.nascimento.geekcontext.Activity.PrincipalActivity;
 import com.pessoal.nascimento.geekcontext.Classes.Usuario;
 import com.pessoal.nascimento.geekcontext.DAO.ConfiguracaoFirebase;
 import com.pessoal.nascimento.geekcontext.R;
@@ -33,8 +31,8 @@ public class MainHelper {
 
     public MainHelper(MainActivity activity){
 
-        emailUsuario= activity.findViewById(R.id.edtEmail);
-        senhaUsuario= activity.findViewById(R.id.edtSenha);
+        emailUsuario=(EditText) activity.findViewById(R.id.edtEmail);
+        senhaUsuario=(EditText) activity.findViewById(R.id.edtSenha);
 
 
         usuario=new Usuario();
@@ -48,13 +46,13 @@ public class MainHelper {
         return usuario;
     }
 
-    public boolean verificaeInicia(Context context,String a, String b){
+    public void verificaeInicia(Context context,String a, String b){
         if(a.isEmpty() || b.isEmpty()){
             Toast.makeText(context,"Preencha todos os campos", Toast.LENGTH_SHORT ).show();
-            return false;
+
         }
         else{ //se estiver tudo ok, retorna true
-            return true;
+            validarLogin();
         }
     }
 
@@ -71,13 +69,11 @@ public class MainHelper {
 
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
-
-                if(task.isSuccessful()){
+                    if(task.isSuccessful()){
                         Toast.makeText(MainActivity.getContext(),"Tudo OK!", Toast.LENGTH_SHORT).show();
-                        MainActivity.getContext().startActivity(principalActivity());
+                        MainActivity.getContext().startActivity(administradorActivity());
                     }
                     else{
-
                         Toast.makeText(MainActivity.getContext(),"Usuário ou senha inválidos", Toast.LENGTH_SHORT).show();
                     }
             }
@@ -87,15 +83,5 @@ public class MainHelper {
     public Intent administradorActivity(){
         Intent administrador=new Intent(MainActivity.getContext(), CadastroUsuarioActivity.class);
         return administrador;
-    }
-
-    public Intent principalActivity(){
-        Intent principal=new Intent(MainActivity.getContext(), PrincipalActivity.class);
-        return principal;
-    }
-
-    public void limparCampos(){
-        emailUsuario.setText("");
-        senhaUsuario.setText("");
     }
 }

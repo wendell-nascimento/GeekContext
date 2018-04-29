@@ -1,5 +1,9 @@
 package com.pessoal.nascimento.geekcontext.Classes;
 
+/**
+ * Created by Nascimento on 08/04/2018.
+ */
+
 public class Usuario {
 
     private int id;

@@ -1,7 +1,6 @@
 package com.pessoal.nascimento.geekcontext.DAO;
 
 import android.support.annotation.NonNull;
-import android.util.Log;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -17,7 +16,7 @@ import com.pessoal.nascimento.geekcontext.Activity.CadastroUsuarioActivity;
 import com.pessoal.nascimento.geekcontext.Classes.Usuario;
 
 /**
- * Created by Nascimento on 14/04/2018.
+ * Created by Nascimento on 08/04/2018.
  */
 
 public class ConfiguracaoFirebase {
@@ -37,10 +36,6 @@ public class ConfiguracaoFirebase {
             autenticacaoFirebase=FirebaseAuth.getInstance();
         }
         return autenticacaoFirebase;
-    }
-
-    public static void logoutUser(){
-        autenticacaoFirebase.signOut();
     }
 
     public void cadastrarUsuario(final Usuario usuario){
