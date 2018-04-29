@@ -1,0 +1,10 @@
+#Sat Apr 28 20:11:18 AMT 2018
+path.2=classes.dex
+path.1=classes.dex
+path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.2=/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/transforms/dexMerger/debug/13
+base.1=/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/transforms/dexMerger/debug/12
+base.0=/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/transforms/dexMerger/debug/14
