@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android1:id="@+id/menu_logoff_administrador"
+        android:orderInCategory="1000"
+        android:title="Desconectar"
+        app:showAsAction="collapseActionView"> </item>
+
+    <item android1:id="@+id/menu_add_usuario"
+        android:orderInCategory="100"
+        android:title="Novo Usuário"
+        app:showAsAction="collapseActionView"> </item>
+
+
+
+</menu>

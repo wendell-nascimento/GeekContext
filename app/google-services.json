@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "456496804859",
+    "firebase_url": "https://nascimento080418.firebaseio.com",
+    "project_id": "nascimento080418",
+    "storage_bucket": "nascimento080418.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456496804859:android:531b2393bc550d88",
+        "android_client_info": {
+          "package_name": "com.pessoal.nascimento.geekcontext"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456496804859-f9p9mnhj7872th06n8a88m7kfabbionu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pessoal.nascimento.geekcontext",
+            "certificate_hash": "ce83fa1b4c94d21d3c5b23f36b6f9f9ca56f8101"
+          }
+        },
+        {
+          "client_id": "456496804859-sq2sphibfsltetat32188hrmi5j0m2ap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBklpOZH4w02-0HEDIEx_BcbhdvG_zvEDs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456496804859-sq2sphibfsltetat32188hrmi5j0m2ap.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
