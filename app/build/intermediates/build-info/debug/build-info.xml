@@ -6,7 +6,7 @@
     density="420dpi"
     format="10"
     plugin-version="3.2.0-alpha10"
-    timestamp="1524922486614"
+    timestamp="1524960652336"
     token="-4683914776632654254"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -23,6 +23,9 @@
         name="verifier"
         duration="0" />
 
+    <artifact
+        location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+        type="SPLIT_MAIN" />
     <artifact
         location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
         type="SPLIT" />
@@ -56,14 +59,14 @@
     <artifact
         location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
         type="SPLIT" />
-    <artifact
-        location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1524922486614"
+        timestamp="1524960652336"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
@@ -97,9 +100,6 @@
         <artifact
             location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
-        <artifact
-            location="/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>
