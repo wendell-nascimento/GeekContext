@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        MainActivityContext = getApplicationContext(); //AQUI!
+        MainActivityContext = getApplicationContext(); //Pega o contexto nesse ponto
         Main=this;
 
         button = findViewById(R.id.btnLogin);
