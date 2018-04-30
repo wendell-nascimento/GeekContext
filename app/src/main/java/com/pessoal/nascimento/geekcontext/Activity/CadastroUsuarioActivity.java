@@ -67,7 +67,7 @@ public class CadastroUsuarioActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        try {
+        try { //Corrige o problema do usuário não tirar ao abrir a camera
             Bitmap bitmap = (Bitmap) data.getExtras().get("data");
             usuarioFoto.setImageBitmap(bitmap);
         } catch (Exception e)
