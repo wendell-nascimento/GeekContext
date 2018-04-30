@@ -5,12 +5,16 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.provider.MediaStore;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
+
+import com.pessoal.nascimento.geekcontext.Activity.CadastroUsuarioActivity;
 
 public class CameraHelper {
     //Verificar se possui permissão para acessar a camera
@@ -54,6 +58,7 @@ public class CameraHelper {
         {
             //Caso a permissão já exista exibe uma mensagem
             Toast.makeText(context,"Permissão autorizada", Toast.LENGTH_SHORT).show();
+            openCamera(activity);
         }
         else {
             requestPermissaoCamera(context,activity);
@@ -136,6 +141,10 @@ public class CameraHelper {
         }
     }
 
+    public void openCamera(Activity activity){
+        Intent intent=new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        activity.startActivityForResult(intent,0);
+    }
     //continuar gravação de imagem no dispositivo
 
 }
