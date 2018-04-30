@@ -31,8 +31,8 @@ public class MainHelper {
 
     public MainHelper(MainActivity activity){
 
-        emailUsuario=(EditText) activity.findViewById(R.id.edtEmail);
-        senhaUsuario=(EditText) activity.findViewById(R.id.edtSenha);
+        emailUsuario= activity.findViewById(R.id.edtEmail);
+        senhaUsuario= activity.findViewById(R.id.edtSenha);
 
 
         usuario=new Usuario();
@@ -46,7 +46,7 @@ public class MainHelper {
         return usuario;
     }
 
-    public void verificaeInicia(Context context,String a, String b){
+    public void verificaeInicia(Context context,String a,String b){
         if(a.isEmpty() || b.isEmpty()){
             Toast.makeText(context,"Preencha todos os campos", Toast.LENGTH_SHORT ).show();
 

@@ -4,7 +4,7 @@
             "outputFile": "/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/Nascimento/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/71fe5400767eba7614a71de5fdff927d/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/Users/Nascimento/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/f0175a2b1278ef1de1d62eabe5478feb/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/Nascimento/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/d095486d1f7dfdf20e6e1e1a5ebcaf6d/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/Users/Nascimento/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/f5ea24c5e6a384f0a37107eb95c31101/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",

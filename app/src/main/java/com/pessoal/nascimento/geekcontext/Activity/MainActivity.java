@@ -1,5 +1,6 @@
 package com.pessoal.nascimento.geekcontext.Activity;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -20,6 +21,7 @@ import com.pessoal.nascimento.geekcontext.R;
 public class MainActivity extends AppCompatActivity {
 
     private static Context MainActivityContext;
+    public static Activity Main;
 
     private FirebaseAuth autenticacao;
 
@@ -33,8 +35,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         MainActivityContext=getApplicationContext(); //AQUI!
+        Main=MainActivity.this;
 
-        button=(Button) findViewById(R.id.btnLogin);
+        button= findViewById(R.id.btnLogin);
 
         helper=new MainHelper(MainActivity.this);
 

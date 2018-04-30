@@ -1,14 +1,18 @@
 #Internal package file, do not edit.
-#Fri Apr 27 13:45:03 AMT 2018
+#Mon Apr 30 14:13:52 AMT 2018
 1.base=/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/transforms/dexMerger/debug/14
 2.path=classes.dex
 0.baseType=DIRECTORY
+3.baseType=DIRECTORY
 2.base=/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/transforms/dexMerger/debug/12
+3.set=DEX
 2.set=DEX
 1.baseType=DIRECTORY
-count=3
+3.path=classes.dex
+count=4
 1.set=DEX
 0.path=classes.dex
+3.base=/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/transforms/dexMerger/debug/15
 0.set=DEX
 0.base=/Users/Nascimento/AndroidStudioProjects/GeekContext/app/build/intermediates/transforms/dexMerger/debug/13
 2.baseType=DIRECTORY

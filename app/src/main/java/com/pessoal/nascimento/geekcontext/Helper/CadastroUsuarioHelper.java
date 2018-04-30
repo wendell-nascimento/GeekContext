@@ -47,7 +47,7 @@ public class CadastroUsuarioHelper {
             }
 
         Toast.makeText(CadastroUsuarioActivity.getCadastroContext(),"Usuario recebido", Toast.LENGTH_SHORT).show();
-        CadastroUsuarioActivity.mainCadastro.finish();
+        CadastroUsuarioActivity.getCadastroActivity().finish();
         CadastroUsuarioActivity.getCadastroContext().startActivity(irActivityPrincipal());
         return usuario;
     }

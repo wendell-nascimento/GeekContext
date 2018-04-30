@@ -42,7 +42,7 @@ public class ConfiguracaoFirebase {
         autenticacaoFirebase=ConfiguracaoFirebase.getAutenticacaoFirebase();
         autenticacaoFirebase.createUserWithEmailAndPassword(
                 usuario.getEmail(),
-                usuario.getSenha1()).addOnCompleteListener(CadastroUsuarioActivity.mainCadastro, new OnCompleteListener<AuthResult>() {
+                usuario.getSenha1()).addOnCompleteListener(CadastroUsuarioActivity.getCadastroActivity(), new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful()){
@@ -67,7 +67,7 @@ public class ConfiguracaoFirebase {
                         e.printStackTrace();
                     }
 
-                    Toast.makeText(CadastroUsuarioActivity.mainCadastro,"Erro "+erroExcecao,Toast.LENGTH_LONG).show();
+                    Toast.makeText(CadastroUsuarioActivity.getCadastroContext(),"Erro "+erroExcecao,Toast.LENGTH_LONG).show();
                 }
 
             }
@@ -78,11 +78,11 @@ public class ConfiguracaoFirebase {
         try{
             referenciaFirebase=ConfiguracaoFirebase.getReferenciaFirebase().child("usuarios");
             referenciaFirebase.push().setValue(usuario);
-            Toast.makeText(CadastroUsuarioActivity.mainCadastro,"Usuário cadastrado com sucesso ",Toast.LENGTH_LONG).show();
+            Toast.makeText(CadastroUsuarioActivity.getCadastroContext(),"Usuário cadastrado com sucesso ",Toast.LENGTH_LONG).show();
             return true;
 
         }catch (Exception e){
-            Toast.makeText(CadastroUsuarioActivity.mainCadastro,"Erro ao gravar ",Toast.LENGTH_LONG).show();
+            Toast.makeText(CadastroUsuarioActivity.getCadastroContext(),"Erro ao gravar ",Toast.LENGTH_LONG).show();
             e.printStackTrace();
             return false;
         }

@@ -31,6 +31,7 @@ public class CadastroUsuarioActivity extends AppCompatActivity {
 
     private static Context CadastroContext;
     private static Activity CadastroActivity;
+
     private Button botaoCadastrarUsuario;
     private ImageView usuarioFoto;
     private CadastroUsuarioHelper cadastroUsuarioHelper;

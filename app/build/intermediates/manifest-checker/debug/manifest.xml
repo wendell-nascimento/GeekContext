@@ -8,8 +8,8 @@
         android:minSdkVersion="21"
         android:targetSdkVersion="26" />
 
+    <!-- Required permission for App measurement to run. -->
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
@@ -36,19 +36,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.pessoal.nascimento.geekcontext.Activity.CadastroUsuarioActivity" />
         <activity android:name="com.pessoal.nascimento.geekcontext.Activity.PrincipalActivity" />
-
-        <provider
-            android:name="android.support.v4.content.FileProvider"
-            android:authorities="com.pessoal.nascimento.geekcontext"
-            android:exported="false"
-            android:grantUriPermissions="true" >
-            <meta-data
-                android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/shared_file_paths" />
-        </provider>
-
+        <activity android:name="com.pessoal.nascimento.geekcontext.Activity.CadastroUsuarioActivity" />
         <activity
             android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
             android:excludeFromRecents="true"
